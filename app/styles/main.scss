@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; box-sizing: border-box; } html {line-height: 1.4em; font-family: Arial, sans-serif; color:#666; } ol, ul {list-style: none; } table {border-collapse: collapse; border-spacing: 0; } caption, th, td {text-align: left; font-weight: normal; vertical-align: middle; } q, blockquote {quotes: none; } q:before, q:after, blockquote:before, blockquote:after {content: ""; content: none; } a img {border: none; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display: block; }
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url('Chunkfive.eot');
+  src: local('ChunkFive Regular'), local('ChunkFive'), url('Chunkfive.ttf') format('truetype');
+}
+section{
+  float: left;
+  width: 100%;
+}
+
+h1{
+  font-size: 2em;
+}
+.hide{
+  display: none;
+  height: 0;
+}
+.serif{
+  font-family: 'ChunkFiveRegular', Georgia, serif;
+  line-height: 1.2em;
+}
+.dark-bg{
+  background-color: #666;
+  color:#fff;
+}
+.dark-bg a:link, .dark-bg a:visited, .dark-bg a:hover, .dark-bg a:hover{
+  color: #fff;
+}
+.light-bg{
+  background-color: #efefef;
+}
+.highlight-bg{
+  background-color: #6abcb6;
+}
+.dark-color, .dark-color:link, .dark-color:visited, .dark-color:hover{
+  color:#666;
+}
+.light-color, .light-color:link, .light-color:visited, .light-color:hover{
+  color:#8c8c8c;
+}
+.highlight-color, .highlight-color:link, .highlight-color:visited, .highlight-color:hover{
+  color:#6abcb6;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.section-wrapp{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+#work-list.section-wrapp{
+  padding: 0;
+}
+.logo{
+  text-decoration: none;
+  font-size: .5em;
+}
+.main-nav{
+  padding: 20px 0 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.nav{
+  margin-bottom: 15px;
+}
+.nav-item{
+  text-align: center;
+  margin-left:25px; 
+}
+.nav-item:first-child{
+  margin-left: 0;
+}
+
+.top, #works, #contact{
+  padding: 70px 0;
+}
+.top{
+  padding-top:90px; 
+}
+.intro{
+  padding: 10px 0 0;
+}
+.work-thumb{
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  color:#666;
+  width: 96%;
+  margin: 10px 2%;
+}
+.work-thumb-big{
+  width: 50%;
+}
+.work-title {
+    background:#fff;
+    color: #6abcb6;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+.work-description, .work-detail{
+    padding: 10px 20px;
+}
+.touch .work-detail{
+  padding: 20px;
+}
+#contact{
+  text-align: right;
+}
+#contact p{
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+#contact li{
+  margin-bottom: 10px;
+}
+.no-touch .work-thumb{
+    position: relative;
+    overflow: hidden;
+}
+.no-touch .work-title{
+  padding: 50px 20px
+}
+.no-touch .work-detail{ 
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: rgba(239,239,239, 0.95);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding-top: 30px;
+ 
+}
+.no-touch .work-detail:hover {
+  animation: fadeIn 0.3s;
+  opacity: 0.9;
+  background-color: #666;
+  color: #fff;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: .9;}
+}
+@media (min-width: 480px) {
+  .logo{
+    font-size: .75em;
+    margin-top: -5px;
+  }
+}
+@media (min-width: 620px) {
+  .work-thumb{
+    width: 46%;
+    margin:10px 2%; 
+    float: left;
+  }
+}
+
+@media (min-width: 760px) {
+  .work-thumb{
+    width: 29.3333%;
+    margin: 0 2% 30px;
+    padding: 0;
+  }
+
+}
+
+
+
+

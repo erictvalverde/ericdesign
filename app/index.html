@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Eric Valverde, Designer and Front end Developer</title>
+    <meta content='Eric Valverde Design and Front end Development Portfolio' name='description' />
+    <meta content='Eric Valverde' name='author' />
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    
+    <script src="scripts/modernizr.js"></script>
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="app">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div id='intro'>
+
+     <header class="main-nav dark-bg">
+        <div class="section-wrapp">
+          <h1 class="nav-item"><a href="#intro" class="logo serif pull-left" du-smooth-scroll>&lt;/Eric Valverde&gt;</a></h1>
+          <nav>
+            <ul class="nav pull-right">
+              <li class="nav-item pull-left serif"><a href="#works" du-smooth-scroll >Work</a></li>
+              <li class="nav-item pull-left serif"><a href="#contact" du-smooth-scroll>Contact</a></li>
+            </ul>
+          </nav>
+        </div> 
+      </header>
+      
+      <section class="top light-bg">
+        <div class="section-wrapp">
+          <h1 class="serif"><span class="highlight-color">Hello there!</span> <br /> I&prime;m Eric, I design and build Websites and Apps.</h1>
+          <p class="intro">I am passionate about the Web and most of my work involve UI/UX design for Apps and Websites, HTML, CSS, RWD, Javascript, Wordpress integration and iOS &amp; Android development using Appcelerator's Titanium.</p>       
+        </div>
+      </section>
+
+      <section id="works" class="highlight-bg">
+         
+          <h1 class="hide">Work</h1>
+         <div id="work-list" class="section-wrapp">
+           
+           <work-thumb on-last-work></work-thumb>
+         
+         </div>
+
+      </section>
+
+      <footer>
+
+        <section id="contact" class="light-bg">
+         <div class="section-wrapp">
+           <h1 class="hide">contact</h1>
+           <p class="serif">Let&prime;s build an awesome Website and App </br>Get in touch</p>
+           <ul>
+             <li><a href="mailto:erictvalverde@gmail.com" class="dark-color">Email: erictvalverde@gmail.com</a></li>
+             <li><a href="https://twitter.com/erictvalverde" class="dark-color">Twitter: @erictvalverde</a></li>
+             <li><a href="http://ie.linkedin.com/pub/eric-valverde/8/b6b/714" class="dark-color">LinkedIn: https://www.linkedin.com/in/erictvalverde</a></li>
+           </ul>
+         </div>
+        </section>
+
+      </footer>
+
+
+    </div>
+
+
+    <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-60336148-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/get-style-property/get-style-property.js"></script>
+    <script src="bower_components/get-size/get-size.js"></script>
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/doc-ready/doc-ready.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/matches-selector/matches-selector.js"></script>
+    <script src="bower_components/outlayer/item.js"></script>
+    <script src="bower_components/outlayer/outlayer.js"></script>
+    <script src="bower_components/masonry/masonry.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+   
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/works.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

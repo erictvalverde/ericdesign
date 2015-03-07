@@ -1,0 +1,6 @@
+<a ng-repeat="work in works.items" href="{{work.href}}" target="_blank" id="{{work.id}}" class="light-bg work-thumb">
+	<h2 class="work-title serif">{{work.title}}</h2>
+	<ul class="work-detail">
+	 <li ng-repeat="skill in work.skills">{{skill}}</li>
+	</ul>
+</a>

@@ -1,0 +1,90 @@
+{
+	"items":[
+		{
+			"id":"thw",
+			"href":"http://www.tescohealthandwellbeing.com",
+			"title": "Tesco Health & Wellbeing",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development"
+			},
+			"big": true
+		},
+		{
+			"id": "thw-app",
+			"href":"http://www.tescohealthandwellbeing.com/app",
+			"title": "TH&W APP",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"iOS and Android development with Appcelarator Titanium"
+			}
+		},
+		{
+			"id": "hub",
+			"href":"http://www.tesco.com/health",
+			"title": "Tesco Health HUB",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development"
+			}
+		},
+		{
+			"id": "clo",
+			"href":"http://www.closerdiets.com",
+			"title": "Closer Diets",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development"
+			}
+		},
+		{
+			"id": "bbi",
+			"href":"http://www.innovaxbbi.com.br",
+			"title": "Innovax BBI",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development",
+				"3":"Wordpress custom Theme and Integration"
+			}
+		},
+		{
+			"id": "vni",
+			"href":"http://www.vidanairlanda.com.br",
+			"title": "Vida Na Irlanda",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development",
+				"3":"Wordpress custom Theme and Integration"
+			}
+		},
+		{
+			"id": "tkn",
+			"href":"http://www.tarsilakruse.com",
+			"title": "Tarsila Kruse",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development",
+				"3":"Wordpress custom Theme and Integration"
+			}
+		},
+		{
+			"id": "cbp",
+			"href":"http://www.crisburmester.com.br",
+			"title": "Cris Burmester",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development",
+				"3":"Wordpress custom Theme and Integration"
+			}
+		},
+		{
+			"id": "emo",
+			"href":"http://www.emotoursegypt.com",
+			"title": "Emo tours Egypt",
+			"skills":{
+				"1":"UI/UX Design",
+				"2":"Front end Development"
+			}
+		}
+	]
+}
